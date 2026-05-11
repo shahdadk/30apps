@@ -1,0 +1,13 @@
+Pipeline/secrets/*.p8
+Pipeline/secrets/asc_api_key.json
+Pipeline/fastlane/report.xml
+Pipeline/fastlane/Preview.html
+**/*.xcodeproj
+**/build/
+**/DerivedData/
+**/*.ipa
+**/*.dSYM.zip
+**/fastlane/screenshots/*.png
+**/fastlane/screenshots/screenshots.html
+.DS_Store
+*.log

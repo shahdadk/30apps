@@ -1,0 +1,482 @@
+{
+  "publisher": {
+    "name": "Shahdad Kompanizare",
+    "team_id": "WY973MA4AF",
+    "bundle_prefix": "com.shahdadk",
+    "support_url": "https://shahdadk.github.io/30apps/support.html",
+    "privacy_url": "https://shahdadk.github.io/30apps/privacy.html",
+    "marketing_url": "https://shahdadk.github.io/30apps/"
+  },
+  "concepts": [
+    {
+      "id": "01", "slug": "tapbpm", "name": "TapBPM",
+      "subtitle": "Tap a tempo, find its BPM",
+      "archetype": "action",
+      "category_primary": "MUSIC", "category_secondary": "UTILITIES",
+      "primary_color": "#FF3B30", "accent_color": "#FFCC00",
+      "sf_symbol": "metronome.fill",
+      "icon_style": "concentric",
+      "keywords": "bpm,tempo,metronome,music,beats,tap,drummer,song,measure,rhythm",
+      "description": "TapBPM measures the beats per minute of any rhythm in real time. Tap along to a song, a drum loop, or your own pulse — TapBPM shows the running BPM after your second tap and averages your last eight intervals so the readout settles fast. A confidence indicator dims when your taps are inconsistent so you know when to keep going. Reset with one tap. No setup, no sign-in, no internet. Built for musicians, dancers, sound engineers, runners syncing to cadence, and anyone curious what tempo their favorite song is. Works fully offline.",
+      "arch_config": {
+        "window_taps": 8,
+        "min_taps_for_readout": 2,
+        "show_confidence": true
+      }
+    },
+    {
+      "id": "02", "slug": "natospell", "name": "NATO Spell",
+      "subtitle": "Phonetic alphabet, instantly",
+      "archetype": "translator",
+      "category_primary": "REFERENCE", "category_secondary": "UTILITIES",
+      "primary_color": "#0A84FF", "accent_color": "#5AC8FA",
+      "sf_symbol": "antenna.radiowaves.left.and.right",
+      "icon_style": "callsign",
+      "keywords": "nato,phonetic,alpha,bravo,spell,radio,callsign,military,aviation,letters",
+      "description": "NATO Spell converts any word, name, or string into the NATO phonetic alphabet — the international standard used by aviation, military, emergency services, and customer support agents reading back order numbers. Type or paste, get back Alpha Bravo Charlie line by line, with optional digit pronunciations (Niner for 9) and the full reference chart one tap away. Copy the whole spelling to clipboard with one button. Letter-by-letter highlighting helps you read it aloud at your own pace. Works completely offline.",
+      "arch_config": {
+        "table": "nato",
+        "show_chart": true,
+        "show_digits": true
+      }
+    },
+    {
+      "id": "03", "slug": "morsedot", "name": "Morse Dot",
+      "subtitle": "Morse code, with audio",
+      "archetype": "translator",
+      "category_primary": "REFERENCE", "category_secondary": "EDUCATION",
+      "primary_color": "#1C1C1E", "accent_color": "#30D158",
+      "sf_symbol": "waveform.path",
+      "icon_style": "dotdash",
+      "keywords": "morse,code,sos,telegraph,dot,dash,signal,ham,radio,beacon",
+      "description": "Morse Dot translates text to Morse code and back, and plays the result as real audio at a tunable words-per-minute — perfect for amateur radio practice, scout badges, escape room puzzles, or learning a hundred-and-sixty-year-old language. Sliders set audio speed and pitch independently so you can practice copying at any level. Visual flash mode mirrors the audio for silent practice. SOS preset for emergencies. Built-in cheat sheet for every letter, digit, and prosign. Works fully offline.",
+      "arch_config": {
+        "table": "morse",
+        "wpm_default": 15,
+        "frequency_hz": 600,
+        "has_audio": true,
+        "has_flash": true
+      }
+    },
+    {
+      "id": "04", "slug": "romanx", "name": "RomanX",
+      "subtitle": "Roman numeral converter",
+      "archetype": "translator",
+      "category_primary": "REFERENCE", "category_secondary": "EDUCATION",
+      "primary_color": "#8B5A2B", "accent_color": "#D4A574",
+      "sf_symbol": "x.squareroot",
+      "icon_style": "carved",
+      "keywords": "roman,numeral,number,convert,history,latin,clock,year,date,super bowl",
+      "description": "RomanX converts between Roman numerals and Arabic numbers — both directions, up to 3,999,999 with the standard vinculum notation for large values. Useful for clockmakers, historians, book chapter references, Super Bowl numbering, and anyone trying to read a movie copyright date in the credits. Type a number to see its Roman form (with breakdown showing each component), or type Roman letters to validate and decode. Invalid forms get a clear explanation. Tap any result to copy. Works fully offline.",
+      "arch_config": {
+        "max_value": 3999999,
+        "use_vinculum": true,
+        "show_breakdown": true
+      }
+    },
+    {
+      "id": "05", "slug": "cipherkit", "name": "Cipher Kit",
+      "subtitle": "Caesar and ROT13 cipher",
+      "archetype": "translator",
+      "category_primary": "EDUCATION", "category_secondary": "REFERENCE",
+      "primary_color": "#5856D6", "accent_color": "#AF52DE",
+      "sf_symbol": "lock.shield.fill",
+      "icon_style": "rotor",
+      "keywords": "cipher,caesar,rot13,encrypt,decrypt,puzzle,crypto,classroom,secret,code",
+      "description": "Cipher Kit applies a classic Caesar shift cipher — or its zero-knowledge cousin ROT13 — to any text you type or paste. A live shift dial from -25 to +25 updates the output as you turn it, with the alphabet ring rendered beneath so students can see exactly how the substitution works. Switch to brute-force mode to see all 25 shifts at once when you're decoding an unknown puzzle. Built for classrooms teaching introductory cryptography, escape-room designers, and crossword solvers. Works fully offline.",
+      "arch_config": {
+        "min_shift": -25, "max_shift": 25,
+        "show_rotor": true,
+        "show_brute_force": true
+      }
+    },
+    {
+      "id": "06", "slug": "piglatin", "name": "PigLatinizer",
+      "subtitle": "Pig Latin translator",
+      "archetype": "translator",
+      "category_primary": "EDUCATION", "category_secondary": "ENTERTAINMENT",
+      "primary_color": "#FF9F0A", "accent_color": "#FFD60A",
+      "sf_symbol": "character.bubble.fill",
+      "icon_style": "speech",
+      "keywords": "pig,latin,igpay,atinlay,kid,fun,translator,language,game,school",
+      "description": "PigLatinizer turns any English text into Pig Latin and back. Words starting with a consonant get the consonant cluster moved to the end with -ay appended (hello becomes ellohay). Words starting with a vowel get -way appended (apple becomes appleway). Punctuation, capitalization, and contractions are preserved. Perfect for kids learning about phonetics, sibling secret codes, or just amusing yourself on a long car ride. Reverse-translation works on most well-formed Pig Latin too. Works fully offline.",
+      "arch_config": {
+        "vowel_suffix": "way",
+        "consonant_suffix": "ay",
+        "preserve_case": true
+      }
+    },
+    {
+      "id": "07", "slug": "hexpal", "name": "Hex Pal",
+      "subtitle": "Color converter for designers",
+      "archetype": "translator",
+      "category_primary": "GRAPHICS_DESIGN", "category_secondary": "DEVELOPER_TOOLS",
+      "primary_color": "#FF2D55", "accent_color": "#5AC8FA",
+      "sf_symbol": "eyedropper.halffull",
+      "icon_style": "swatch",
+      "keywords": "hex,rgb,hsl,color,convert,designer,developer,palette,swatch,picker",
+      "description": "Hex Pal converts any color between hex, RGB, HSL, and HSB. Type in one format and the others update in real time, with a generous swatch preview so you can see exactly what you're looking at. Tap any field to copy. Pull from the palette of fourteen named system colors (System Red, System Blue, and friends) for quick reference. Built for web developers, mobile designers, illustrators, and anyone tired of mental arithmetic between formats. Works fully offline.",
+      "arch_config": {
+        "formats": ["hex", "rgb", "hsl", "hsb"],
+        "include_system_palette": true,
+        "swatch_height": 220
+      }
+    },
+    {
+      "id": "08", "slug": "tipsplit", "name": "TipSplit",
+      "subtitle": "Tip and split a bill",
+      "archetype": "calculator",
+      "category_primary": "FINANCE", "category_secondary": "UTILITIES",
+      "primary_color": "#34C759", "accent_color": "#30D158",
+      "sf_symbol": "creditcard.fill",
+      "icon_style": "receipt",
+      "keywords": "tip,split,bill,calculator,restaurant,server,gratuity,dinner,group,share",
+      "description": "TipSplit calculates a tip and divides the total bill across a group, with a roundable per-person amount so nobody has to dig through their pocket for a quarter. Quick-tap presets at 15%, 18%, 20%, 22%, and 25% — or scrub the dial for a custom percentage. Toggle a 'round up' switch to make the per-person total a whole dollar (TipSplit absorbs the rounding into the tip). Works in any currency: just type your local symbol. No internet, no account, no fees. Built so you can pay the check before the awkward silence sets in.",
+      "arch_config": {
+        "presets": [15, 18, 20, 22, 25],
+        "max_party": 30,
+        "round_up_default": true
+      }
+    },
+    {
+      "id": "09", "slug": "macromath", "name": "Macro Math",
+      "subtitle": "TDEE and macro splits",
+      "archetype": "calculator",
+      "category_primary": "HEALTH_FITNESS", "category_secondary": "UTILITIES",
+      "primary_color": "#FF9500", "accent_color": "#FF453A",
+      "sf_symbol": "chart.line.uptrend.xyaxis",
+      "icon_style": "macropie",
+      "keywords": "macro,tdee,calorie,bmr,protein,carb,fat,fitness,diet,cutting",
+      "description": "Macro Math estimates your total daily energy expenditure using the Mifflin–St Jeor equation, then splits target calories into protein, carbohydrate, and fat using whichever ratio you pick (cutting, maintenance, bulking, keto, or custom percentages that have to add to 100). Inputs in either imperial or metric. A clear pie chart breaks the day's grams down so you can see at a glance what dinner has to look like. Educational — not medical advice — and works fully offline.",
+      "arch_config": {
+        "presets": {"cut": [40, 30, 30], "maintain": [30, 40, 30], "bulk": [25, 50, 25], "keto": [25, 5, 70]},
+        "activity_levels": [1.2, 1.375, 1.55, 1.725, 1.9]
+      }
+    },
+    {
+      "id": "10", "slug": "onerm", "name": "OneRM",
+      "subtitle": "Strength 1RM calculator",
+      "archetype": "calculator",
+      "category_primary": "HEALTH_FITNESS", "category_secondary": "SPORTS",
+      "primary_color": "#FF3B30", "accent_color": "#1C1C1E",
+      "sf_symbol": "dumbbell.fill",
+      "icon_style": "barbell",
+      "keywords": "1rm,strength,powerlifting,squat,bench,deadlift,epley,brzycki,reps,max",
+      "description": "OneRM estimates your one-rep maximum from any submaximal set using the four most-cited formulas — Epley, Brzycki, Lombardi, and O'Conner — so you can compare estimates and pick the one that best matches your trust in the math. Punch in the weight you lifted and the reps you got, and OneRM shows percentage tables for 50% through 95% of your estimated max for programming your next training block. Imperial and metric. Saves your last three lifts for quick re-estimation. Works fully offline.",
+      "arch_config": {
+        "formulas": ["epley", "brzycki", "lombardi", "oconner"],
+        "history_size": 3,
+        "percentage_table": [50, 60, 65, 70, 75, 80, 85, 90, 95]
+      }
+    },
+    {
+      "id": "11", "slug": "platesnow", "name": "Plates Now",
+      "subtitle": "Barbell plate loader",
+      "archetype": "calculator",
+      "category_primary": "HEALTH_FITNESS", "category_secondary": "SPORTS",
+      "primary_color": "#1C1C1E", "accent_color": "#FF2D55",
+      "sf_symbol": "scalemass.fill",
+      "icon_style": "plates",
+      "keywords": "plates,barbell,squat,bench,deadlift,gym,loading,weight,kg,lb",
+      "description": "Plates Now tells you exactly which plates to slide onto each side of the barbell to hit a target weight. Pick your bar (standard 45 lb, women's 35 lb, EZ-curl, technique bar) and your gym's available plate set, then type the total you want. Plates Now solves for the greedy combination and shows it visually as a stack so you can sanity-check before loading. Imperial or metric. Includes warning if the target is below the bar weight or above what your selected plates can reach. Works fully offline.",
+      "arch_config": {
+        "bars": {"standard": 45, "womens": 35, "technique": 15, "ez_curl": 25},
+        "plate_sets_lb": [45, 35, 25, 10, 5, 2.5],
+        "plate_sets_kg": [25, 20, 15, 10, 5, 2.5, 1.25]
+      }
+    },
+    {
+      "id": "12", "slug": "brewratio", "name": "BrewRatio",
+      "subtitle": "Coffee brewing ratios",
+      "archetype": "calculator",
+      "category_primary": "FOOD_DRINK", "category_secondary": "REFERENCE",
+      "primary_color": "#5D3A22", "accent_color": "#C19A6B",
+      "sf_symbol": "cup.and.saucer.fill",
+      "icon_style": "pour",
+      "keywords": "coffee,brew,ratio,v60,aeropress,french,press,chemex,pourover,scale",
+      "description": "BrewRatio computes how many grams of coffee and how many grams of water you need for any size of pour-over, AeroPress, French press, or Chemex brew. Pick the method, set the strength dial from light (1:18) to strong (1:14), and BrewRatio shows the exact weights and the suggested grind size. Reverse mode: punch in how much coffee you already have and BrewRatio tells you how much water to use. Built so your morning routine is the same every day. Works fully offline.",
+      "arch_config": {
+        "methods": {"v60": [16, 17], "aeropress": [14, 16], "french_press": [15, 17], "chemex": [16, 18]},
+        "min_ratio": 14, "max_ratio": 20
+      }
+    },
+    {
+      "id": "13", "slug": "cookconvert", "name": "CookConvert",
+      "subtitle": "Cooking unit converter",
+      "archetype": "calculator",
+      "category_primary": "FOOD_DRINK", "category_secondary": "UTILITIES",
+      "primary_color": "#FF9F0A", "accent_color": "#FF6B35",
+      "sf_symbol": "fork.knife",
+      "icon_style": "spoons",
+      "keywords": "cup,tablespoon,ounce,gram,convert,cooking,baking,recipe,kitchen,metric",
+      "description": "CookConvert turns cups into milliliters, ounces into grams, tablespoons into teaspoons, and every other conversion your imported recipe is going to throw at you. Volume and weight in one place. Toggles between US, Imperial, and metric cup definitions (they're not the same — yours is probably the US cup). Common ingredients like flour, sugar, and butter have density-aware weight conversions because a cup of flour is not a cup of water. Works fully offline.",
+      "arch_config": {
+        "volume_units": ["us_cup", "imperial_cup", "metric_cup", "tbsp", "tsp", "ml", "fl_oz"],
+        "weight_units": ["g", "kg", "oz", "lb"],
+        "ingredient_densities": {"flour": 125, "sugar": 200, "butter": 227, "rice": 195}
+      }
+    },
+    {
+      "id": "14", "slug": "inchmath", "name": "InchMath",
+      "subtitle": "Inches, mm, fractions",
+      "archetype": "calculator",
+      "category_primary": "UTILITIES", "category_secondary": "REFERENCE",
+      "primary_color": "#5AC8FA", "accent_color": "#0A84FF",
+      "sf_symbol": "ruler.fill",
+      "icon_style": "ruler",
+      "keywords": "inch,mm,fraction,convert,woodworking,carpentry,ruler,sixteenth,metric,imperial",
+      "description": "InchMath converts between decimal inches, fractional inches (down to thirty-second), and millimeters. Useful for woodworking, machining, 3D printing tolerances, and anyone whose ruler is in inches but whose tape measure is in millimeters. Snap fractions to the nearest sixteenth, eighth, or quarter for cuts you can actually mark. A running total mode lets you add a column of measurements together. Works fully offline.",
+      "arch_config": {
+        "fraction_denominators": [2, 4, 8, 16, 32],
+        "default_denominator": 16,
+        "has_running_total": true
+      }
+    },
+    {
+      "id": "15", "slug": "pupyears", "name": "PupYears",
+      "subtitle": "Dog and cat age calculator",
+      "archetype": "calculator",
+      "category_primary": "LIFESTYLE", "category_secondary": "UTILITIES",
+      "primary_color": "#FFB340", "accent_color": "#A0522D",
+      "sf_symbol": "pawprint.fill",
+      "icon_style": "pawprint",
+      "keywords": "dog,cat,age,years,human,puppy,kitten,pet,vet,calculator",
+      "description": "PupYears converts dog and cat ages into human-equivalent years using a smarter model than the old 'multiply by seven' rule. For dogs, it accounts for breed size category (small, medium, large, giant) because giant breeds age dramatically faster after puberty. For cats, it uses the standard two-phase model — fifteen years of human aging in year one, plus another nine in year two, then four per year after. Includes a brief explanation of the formula so you understand what the number means. Works fully offline.",
+      "arch_config": {
+        "dog_sizes": ["small", "medium", "large", "giant"],
+        "cat_phase": [15, 9, 4]
+      }
+    },
+    {
+      "id": "16", "slug": "dicednd", "name": "Dice DnD",
+      "subtitle": "Tabletop dice roller",
+      "archetype": "picker",
+      "category_primary": "GAMES", "category_secondary": "ENTERTAINMENT",
+      "primary_color": "#AF52DE", "accent_color": "#FF2D55",
+      "sf_symbol": "die.face.6.fill",
+      "icon_style": "polyhedral",
+      "keywords": "dnd,dice,roll,d20,tabletop,rpg,advantage,disadvantage,critical,polyhedral",
+      "description": "Dice DnD rolls every die you'd want at a tabletop session: d4, d6, d8, d10, d12, d20, d100. Tap to roll one, long-press to roll many. Standard advantage and disadvantage buttons take the higher or lower of two d20s with both results shown so the dungeon master can verify. Critical hits and crit fails flash. Roll history scrolls back so you don't have to remember what last turn's check came up as. Haptic feedback for every roll. Works fully offline.",
+      "arch_config": {
+        "dice": [4, 6, 8, 10, 12, 20, 100],
+        "history_size": 50,
+        "haptic": true
+      }
+    },
+    {
+      "id": "17", "slug": "decideit", "name": "Decide!",
+      "subtitle": "Yes, no, or spin the wheel",
+      "archetype": "picker",
+      "category_primary": "LIFESTYLE", "category_secondary": "ENTERTAINMENT",
+      "primary_color": "#FF2D55", "accent_color": "#FFD60A",
+      "sf_symbol": "questionmark.diamond.fill",
+      "icon_style": "coin",
+      "keywords": "decide,decision,random,yes,no,wheel,flip,coin,maybe,choice",
+      "description": "Decide! makes a decision for you when you can't make it yourself. Three modes. Coin flip for a binary call (heads or tails, animated). Yes/no/maybe for a slightly more honest answer. Wheel for an arbitrary list of options that you type in — Decide! spins and lands on one. Animations are tactile and the result is not weighted, just genuinely random. Useful for restaurant choice arguments and weeknight dinner stalemates. Works fully offline.",
+      "arch_config": {
+        "modes": ["coin", "yesnomaybe", "wheel"],
+        "wheel_max_items": 16
+      }
+    },
+    {
+      "id": "18", "slug": "mantraday", "name": "Mantra Day",
+      "subtitle": "A daily affirmation card",
+      "archetype": "picker",
+      "category_primary": "LIFESTYLE", "category_secondary": "HEALTH_FITNESS",
+      "primary_color": "#BF5AF2", "accent_color": "#FFD60A",
+      "sf_symbol": "sparkles",
+      "icon_style": "card",
+      "keywords": "mantra,affirmation,daily,meditation,quote,positive,morning,reflection,gratitude,mindful",
+      "description": "Mantra Day shows you one affirmation for today — a short, undecorated sentence to carry with you. Tomorrow you get a different one. Swipe to see today's previous choices if you don't like the first. The collection is two hundred phrases drawn from contemporary wellness writing, with categories you can opt into (gratitude, confidence, calm, ambition, kindness). No streaks, no scores, no notifications begging you to come back. Just one phrase, once a day. Works fully offline.",
+      "arch_config": {
+        "library_size": 200,
+        "categories": ["gratitude", "confidence", "calm", "ambition", "kindness"],
+        "show_history": true
+      }
+    },
+    {
+      "id": "19", "slug": "plankhero", "name": "Plank Hero",
+      "subtitle": "Plank timer with progression",
+      "archetype": "timer",
+      "category_primary": "HEALTH_FITNESS", "category_secondary": "SPORTS",
+      "primary_color": "#FF3B30", "accent_color": "#FFFFFF",
+      "sf_symbol": "figure.core.training",
+      "icon_style": "concentric",
+      "keywords": "plank,timer,core,abs,fitness,exercise,workout,hold,progression,strength",
+      "description": "Plank Hero is a plank timer that nudges you longer each session. Pick a starting hold (twenty seconds is fine), set the increment you can stomach (five seconds is plenty), and Plank Hero remembers and offers a slightly harder target next time. Visual ring fills as you hold. Big finish chime. Three preset plank variations described in plain language (forearm, side, with leg lift) so you actually progress through different muscles. Works fully offline.",
+      "arch_config": {
+        "default_start_sec": 20,
+        "default_increment_sec": 5,
+        "variations": ["forearm", "side_left", "side_right", "leg_lift"]
+      }
+    },
+    {
+      "id": "20", "slug": "breath478", "name": "Breath 4-7-8",
+      "subtitle": "Guided breathing",
+      "archetype": "timer",
+      "category_primary": "HEALTH_FITNESS", "category_secondary": "LIFESTYLE",
+      "primary_color": "#64D2FF", "accent_color": "#0A84FF",
+      "sf_symbol": "wind",
+      "icon_style": "breath",
+      "keywords": "breathing,breath,478,box,calm,anxiety,sleep,meditation,exhale,inhale",
+      "description": "Breath 4-7-8 guides you through the four-seven-eight breathing pattern — inhale for four counts, hold for seven, exhale for eight — used by people who struggle to fall asleep and by anyone trying to settle their heart rate before a hard conversation. A circle that expands and contracts in time with the rhythm carries the count for you. Switch to box breathing (four-four-four-four) for a daytime focus pattern. Optional silent haptic prompts replace audio. Works fully offline.",
+      "arch_config": {
+        "patterns": {"478": [4, 7, 8, 0], "box": [4, 4, 4, 4]},
+        "default_pattern": "478",
+        "default_cycles": 4
+      }
+    },
+    {
+      "id": "21", "slug": "teatime", "name": "TeaTime",
+      "subtitle": "Brew timer by tea type",
+      "archetype": "timer",
+      "category_primary": "FOOD_DRINK", "category_secondary": "LIFESTYLE",
+      "primary_color": "#3A6B35", "accent_color": "#A4C639",
+      "sf_symbol": "leaf.fill",
+      "icon_style": "leaves",
+      "keywords": "tea,brew,timer,steep,green,black,oolong,white,matcha,chai",
+      "description": "TeaTime times your steep so you stop guessing. Pick the tea — green, black, oolong, white, herbal, matcha, chai, pu-erh — and TeaTime starts a countdown at the recommended steep time and water temperature for that variety. A small note tells you why (green tea steeped too long turns bitter; black tea wants a full three minutes; herbals are forgiving). Gentle chime at finish. Stays awake during the timer so the screen doesn't lock. Works fully offline.",
+      "arch_config": {
+        "teas": {"green": [120, 75], "black": [240, 100], "oolong": [180, 90], "white": [300, 80], "herbal": [420, 100], "matcha": [60, 80], "chai": [300, 100], "puerh": [180, 95]}
+      }
+    },
+    {
+      "id": "22", "slug": "eggoclock", "name": "EggOClock",
+      "subtitle": "Soft, medium, or hard egg",
+      "archetype": "timer",
+      "category_primary": "FOOD_DRINK", "category_secondary": "UTILITIES",
+      "primary_color": "#FFD60A", "accent_color": "#FF9F0A",
+      "sf_symbol": "oval.fill",
+      "icon_style": "egg",
+      "keywords": "egg,timer,boiled,soft,medium,hard,kitchen,cook,breakfast,minute",
+      "description": "EggOClock times your boiled egg to the exact doneness you want. Pick soft (six minutes — runny yolk), medium (eight — jammy yolk), or hard (ten — fully set yolk). For altitude adjustment, an optional toggle adds thirty seconds for every thousand feet above sea level because water boils cooler up there. Big readable countdown. Loud finish chime so you can hear it from the next room. Works fully offline.",
+      "arch_config": {
+        "presets": {"soft": 360, "medium": 480, "hard": 600},
+        "altitude_adjustable": true
+      }
+    },
+    {
+      "id": "23", "slug": "pomodorouplus", "name": "Pomodoro+",
+      "subtitle": "Focus timer with stats",
+      "archetype": "timer",
+      "category_primary": "PRODUCTIVITY", "category_secondary": "UTILITIES",
+      "primary_color": "#FF3B30", "accent_color": "#1C1C1E",
+      "sf_symbol": "timer",
+      "icon_style": "tomato",
+      "keywords": "pomodoro,focus,timer,work,study,productivity,break,session,deep,concentration",
+      "description": "Pomodoro+ is a focus timer using the standard twenty-five minute work / five minute break rhythm, with a longer fifteen minute break every fourth session. Customize the intervals if your work needs different blocks. A clean ring shows progress and the screen stays awake. After each session, Pomodoro+ logs how many you completed today and shows a small chart of your last seven days so you can see your focus pattern without it becoming a guilt trip. Works fully offline.",
+      "arch_config": {
+        "work_min": 25, "short_break_min": 5, "long_break_min": 15,
+        "long_break_after": 4,
+        "history_days": 7
+      }
+    },
+    {
+      "id": "24", "slug": "stoicpocket", "name": "Stoic Pocket",
+      "subtitle": "Classical Stoic quotes",
+      "archetype": "browser",
+      "category_primary": "REFERENCE", "category_secondary": "LIFESTYLE",
+      "primary_color": "#8E8E93", "accent_color": "#1C1C1E",
+      "sf_symbol": "book.closed.fill",
+      "icon_style": "scroll",
+      "keywords": "stoic,quote,marcus,aurelius,seneca,epictetus,philosophy,meditation,wisdom,classical",
+      "description": "Stoic Pocket is a curated collection of three hundred quotes from Marcus Aurelius, Epictetus, and Seneca, drawn from public-domain English translations. Browse by author, or pull a random passage for today. Each quote is shown with its source — book, chapter, and translator — so you can find it in the original. No notifications, no streaks, no upgrades. Just the words. Works fully offline.",
+      "arch_config": {
+        "authors": ["aurelius", "epictetus", "seneca"],
+        "library_size": 300
+      }
+    },
+    {
+      "id": "25", "slug": "cocktaildeck", "name": "Cocktail Deck",
+      "subtitle": "Classic cocktail recipes",
+      "archetype": "browser",
+      "category_primary": "FOOD_DRINK", "category_secondary": "REFERENCE",
+      "primary_color": "#A4133C", "accent_color": "#FFD60A",
+      "sf_symbol": "wineglass.fill",
+      "icon_style": "glass",
+      "keywords": "cocktail,recipe,bartender,classic,old,fashioned,negroni,martini,manhattan,drinks",
+      "description": "Cocktail Deck is twenty-four classic cocktail recipes, the ones that have been on bar menus for a hundred years and will be there for the next hundred. Old Fashioned, Negroni, Manhattan, Martini, Daiquiri, Sidecar, French 75, and so on. Each card lists ingredients with measurements, the build (stirred, shaken, built in glass), the glass it belongs in, and a one-paragraph note on where the drink came from. No ads, no upsells, no fifteen-step molecular variations. Works fully offline.",
+      "arch_config": {
+        "library_size": 24,
+        "show_history": true
+      }
+    },
+    {
+      "id": "26", "slug": "periodictap", "name": "PeriodicTap",
+      "subtitle": "Periodic table reference",
+      "archetype": "browser",
+      "category_primary": "REFERENCE", "category_secondary": "EDUCATION",
+      "primary_color": "#0A84FF", "accent_color": "#FF453A",
+      "sf_symbol": "atom",
+      "icon_style": "atom",
+      "keywords": "periodic,table,chemistry,element,atomic,number,reference,science,classroom,exam",
+      "description": "PeriodicTap is the full periodic table — all one hundred and eighteen elements, color-coded by category (alkali metal, halogen, noble gas, lanthanide, and the rest). Tap any element for its symbol, atomic number, atomic mass, electron configuration, melting and boiling points in three temperature scales, year of discovery, and the etymology of the name. The lanthanides and actinides are inline rather than orphaned at the bottom so the table reads more naturally. Works fully offline.",
+      "arch_config": {
+        "library_size": 118,
+        "show_etymology": true,
+        "temperature_scales": ["c", "f", "k"]
+      }
+    },
+    {
+      "id": "27", "slug": "starmaplite", "name": "StarMap Lite",
+      "subtitle": "88 constellations guide",
+      "archetype": "browser",
+      "category_primary": "REFERENCE", "category_secondary": "EDUCATION",
+      "primary_color": "#1C1C1E", "accent_color": "#FFD60A",
+      "sf_symbol": "moon.stars.fill",
+      "icon_style": "starfield",
+      "keywords": "constellation,star,astronomy,sky,night,orion,ursa,major,minor,zodiac",
+      "description": "StarMap Lite is a guide to all eighty-eight IAU-recognized constellations. Each has a star-pattern illustration, the meaning of its Latin name, its hemisphere and best viewing month, the brightest stars in it (with magnitudes), and the mythology or origin of the name. Filter by hemisphere or by season. Useful for picking what to look for on a clear night, planning a stargazing trip, or settling whether the W you see is really Cassiopeia. Works fully offline.",
+      "arch_config": {
+        "library_size": 88,
+        "filter_by": ["hemisphere", "season"]
+      }
+    },
+    {
+      "id": "28", "slug": "knotguide", "name": "KnotGuide",
+      "subtitle": "Twelve essential knots",
+      "archetype": "browser",
+      "category_primary": "SPORTS", "category_secondary": "REFERENCE",
+      "primary_color": "#5D3A22", "accent_color": "#A4C639",
+      "sf_symbol": "link",
+      "icon_style": "rope",
+      "keywords": "knot,tying,scout,sailing,climbing,rope,bowline,clove,hitch,figure,eight",
+      "description": "KnotGuide is twelve knots every outdoorsperson should know — bowline, clove hitch, figure-eight, taut-line, sheet bend, double fisherman's, prusik, alpine butterfly, square, half hitch, trucker's, and trefoil. Each entry has step-by-step illustrations, a description of when to use the knot (and when not to), and how strong it is relative to the rope. No videos, no buffering, no ads — just clean step diagrams that load instantly. Works fully offline.",
+      "arch_config": {
+        "library_size": 12
+      }
+    },
+    {
+      "id": "29", "slug": "timezonenow", "name": "TimezoneNow",
+      "subtitle": "Compare cities by time",
+      "archetype": "browser",
+      "category_primary": "TRAVEL", "category_secondary": "PRODUCTIVITY",
+      "primary_color": "#5856D6", "accent_color": "#34C759",
+      "sf_symbol": "globe.americas.fill",
+      "icon_style": "globe",
+      "keywords": "timezone,time,world,clock,city,utc,meeting,travel,jetlag,convert",
+      "description": "TimezoneNow shows up to six cities side by side with their current local time and the time difference from your phone. Scrub a slider to project what time it would be in each city at any moment — useful when you're scheduling a call across time zones and you need everyone to land on a number that's not unreasonable. The list is editable: add any of two hundred cities, drag to reorder, swipe to remove. Works fully offline using the device's time zone database.",
+      "arch_config": {
+        "max_cities": 6,
+        "library_size": 200
+      }
+    },
+    {
+      "id": "30", "slug": "hikewhistle", "name": "HikeWhistle",
+      "subtitle": "Safety whistle and flash",
+      "archetype": "action",
+      "category_primary": "LIFESTYLE", "category_secondary": "SPORTS",
+      "primary_color": "#FF9F0A", "accent_color": "#FF453A",
+      "sf_symbol": "speaker.wave.3.fill",
+      "icon_style": "alert",
+      "keywords": "whistle,safety,hiking,emergency,signal,loud,flash,sos,trail,outdoor",
+      "description": "HikeWhistle turns your phone into a loud safety whistle and a strobing flashlight, two of the most reliable ways to be found when you're lost on a trail or off the back of a ski run. The whistle plays a high-frequency three-blast pattern that carries (the universal distress signal). The flash strobes in time with the audio so a searcher with line-of-sight at night can spot you. Not a substitute for a real whistle and a real headlamp — but if those are at home, this is what you have on you. Works fully offline.",
+      "arch_config": {
+        "whistle_pattern": [1, 1, 1],
+        "whistle_freq_hz": 3500,
+        "strobe_hz": 4,
+        "torch_required": true
+      }
+    }
+  ]
+}
